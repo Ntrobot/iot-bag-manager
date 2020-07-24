@@ -92,12 +92,12 @@ byte neopix_gamma[] = {
 //Wifi Setup
 // You should get Auth Token in the Blynk App.
 // Go to the Project Settings (nut icon).
-char auth[] = "a0037d9acdbe4c9297c0bc778e795239";
+char auth[] = "[AUTH TOKEN]";
 
 // Your WiFi credentials.
 // Set password to "" for open networks.
-char ssid[] = "wx03-dca77b";
-char pass[] = "b37sdDQa";
+char ssid[] = "[SSID]";
+char pass[] = "[PASSWORD]";
 
 
 //Time Table
@@ -970,4 +970,3 @@ uint8_t green(uint32_t c) {
 uint8_t blue(uint32_t c) {
   return (c);
 }
-
